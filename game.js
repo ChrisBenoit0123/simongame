@@ -48,7 +48,7 @@ $(".btn").click(function(e) {
 
 //Function for playing a sound based on the colour passed in
 function playSound(colour) {
-  var sound = new Audio("sounds/" + colour + ".mp3");
+  var sound = new Audio(colour + ".mp3");
   sound.play();
 }
 
